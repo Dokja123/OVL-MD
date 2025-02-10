@@ -1,11 +1,11 @@
 const dotenv = require('dotenv');
 dotenv.config();
 module.exports = {
-  PREFIXE: process.env.PREFIXE || "",
-  NOM_OWNER: process.env.NOM_OWNER || "Ainz",
-  NUMERO_OWNER: process.env.NUMERO_OWNER || "",
+  PREFIXE: process.env.PREFIXE || "!",
+  NOM_OWNER: process.env.NOM_OWNER || "♾️D̷a̷r̷k̷ m̷a̷n̷♾️",
+  NUMERO_OWNER: process.env.NUMERO_OWNER || "2250798325579",
   MODE: process.env.MODE || "public",
-  MENU: process.env.MENU || "https://i.ibb.co/ynx9QcZ/image.jpg",
+  MENU: process.env.MENU || "https://files.catbox.moe/5ufmuh.mp4",
   SESSION_ID: process.env.SESSION_ID || "ovl",
   LEVEL_UP: process.env.LEVEL_UP || "non",
   STICKER_PACK_NAME: process.env.STICKER_PACK_NAME || "Wa-sticker",
